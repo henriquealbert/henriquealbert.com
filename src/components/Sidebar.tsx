@@ -21,7 +21,7 @@ const socialMedia = [
 ]
 
 export const Sidebar = () => (
-  <aside className="-mx-4 flex flex-col md:mx-0 md:w-[200px] md:flex-shrink-0 md:px-0">
+  <aside className="-mx-4 flex md:mx-0 md:w-[200px] md:flex-shrink-0 md:flex-col md:px-0">
     <Image
       src="/images/profile-pic.png"
       alt="Henrique Albert Schmaiske"
@@ -29,8 +29,8 @@ export const Sidebar = () => (
       height={150}
     />
 
-    <nav>
-      <ul className="ml-14 mt-8 flex flex-col gap-2 text-neutral-400">
+    <nav className="flex items-center">
+      <ul className="ml-14 mt-8 flex gap-2 text-neutral-400 md:flex-col">
         {socialMedia.map(({ name, icon, url }) => (
           <li
             key={name}
