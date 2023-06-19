@@ -5,7 +5,7 @@ export const Resume = () => (
     <AiOutlineDownload size="18px" />
 
     <a
-      href="https://drive.google.com/file/d/1snLDmY-TbjZcEh1S0ZEqJHW0AhQqK-FC/view?usp=share_link"
+      href="https://media.licdn.com/dms/document/media/D4D2DAQFw876lcMw2XA/profile-treasury-document-pdf-analyzed/0/1687189140897?e=1687996800&v=beta&t=L3WMy7LxvvopZWL3kCtaflk13r_PTv4Za4yZRDr6jB4"
       target="_blank"
       rel="noopener noreferrer"
     >
